@@ -1,0 +1,22 @@
+{
+    "binary_label" : false,
+    "class_count" : 8,
+    "class_weights" : [1,1,1,1,1,1,1,1],
+    "batch_size" : 8,
+    "epochs" : 15,
+    "learning_rate" : 1e-6,
+    "passage_count" : 3,
+    "dropout" : 0.1,
+    "k_value_for_k_fold_cv" : 7,
+    "log_mlflow" : false,
+    "tmp_cache_dir" : "/home/yaxiong/training/webpage_predictor/model/tmp_cache",
+    "target_names": [
+        "description.general_and_supplementary",
+        "description.general_but_not_supplementary",
+        "description.supplementary_but_not_general",
+        "description.product",
+        "description.client_or_partner",
+        "description.person",
+        "description.place",
+        "not_description.technical_info"]
+}
